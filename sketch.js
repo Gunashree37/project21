@@ -46,25 +46,12 @@ function draw() {
 
 
 
-    if(block2.isTouching(ball)){
-        ball.shapeColor = "yellow";
-        music.play();
-        //write code to set velocityX and velocityY of ball as 0
-
-        //write code to stop music
-    }
-    if(block3.isTouching(ball) && ball.bounceOff(block3)){
-        ball.shapeColor = "red";
-        music.play();
-    }
-    if(block4.isTouching(ball) && ball.bounceOff(block4)){
-        ball.shapeColor = "green";
-        music.play();
-    }
-    //write code to bounce off ball from the block3
-
-
-    //write code to bounce off ball from the block4
-
+    
+    
+    
+    
+    
+    
+    
     drawSprites();
 }
